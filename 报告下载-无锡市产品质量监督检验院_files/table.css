@@ -1,0 +1,467 @@
+﻿/*单独的列表，数据表，tab等的样式*/
+
+
+/*列表搜索栏样式*/
+.SearchListSearch{width:98%;text-align:left;font-size: 13px;margin:8px auto;}
+.SearchListSearch select{padding:1px;}
+.SearchListSearch .input-checkbox{}
+.SearchListSearch ul{ line-height:25px; list-style:none;width:100%;}
+.SearchListSearch li{margin-left:0;margin-right:5px;margin-bottom:3px;vertical-align: middle;float:left;}
+
+/*操作按钮*/
+.SearchListOption{line-height:32px;height:32px;border:1px solid #c4c4c4;background-color:#f0f0f0;margin:0px auto 5px auto;width:98%;}
+.SearchListOption a.btnoperation{margin: 6px 10px;vertical-align: top;}
+.SearchListOption input[type='radio']{ vertical-align:-2px;}
+
+/*列表样式1*/
+div.tableWarp{}
+.comTable{width:100%;margin:0 auto;background:#fff;table-layout:fixed;border:1px solid #c3ced5;border-width:1px 0 0 1px}
+.comTable td{vertical-align:middle;padding:5px;border:1px solid #c3ced5;border-width:0 1px 1px 0;text-align:center;line-height:16px}
+.comTable td a:link{}
+.comTable td a:visited{}
+.comTable td a:hover{}
+.comTable td a:active{}
+.comTable tr.select td{background:#e6e6e6}
+.comTable td.t10{width:30px}
+.comTable tr.InfoListTit{ width:100%;margin:5px auto 0}
+.comTable tr.InfoListTit td{background:#d9e8f3;font-weight:bold;line-height:20px;border-right:1px solid #c3ced5;}
+.comTable tr.InfoListTit td:last-child{border-right:1px solid #c3ced5;}
+
+.comTable tr td.tit{background:#d9e8f3;font-weight:bold;line-height:20px;border-right:1px solid #c3ced5;width:30%;min-width:70px;}
+
+
+/*列表样式2*/
+div.tableWarp{}
+.selectTable{width:100%;margin:0 auto;background:#fff;table-layout:auto;border:1px solid #c4c4c4;border-width:1px 0 0 1px}
+.selectTable td{vertical-align:middle;padding:5px;border:1px solid #c4c4c4;border-width:0 1px 1px 0;text-align:center;line-height:16px}
+.selectTable td a:link{}
+.selectTable td a:visited{}
+.selectTable td a:hover{}
+.selectTable td a:active{}
+.selectTable tr.select td{background:#e6e6e6}
+.selectTable td.t10{width:30px}
+.selectTable tr.InfoListTit{ width:100%;margin:5px auto 0}
+.selectTable tr.InfoListTit td{background:#f0f0f0;font-weight:bold;line-height:20px;border-right:1px solid #c4c4c4;}
+.selectTable tr.InfoListTit td:last-child{border-right:1px solid #c4c4c4;}
+
+
+
+
+
+
+
+
+/* 排序表格样式 蓝色 */
+table.tablesorter{width:100%;margin:0 auto;background:#fff;table-layout:fixed;border:1px solid #d8d8d7;border-width:1px 0 0 1px}
+table.tablesorter th,table.tablesorter td{vertical-align:middle;padding:5px;border:1px solid #d8d8d7;border-width:0 1px 1px 0;text-align:left;line-height:16px;text-align: center;}
+table.tablesorter th{text-align:center;background-color:#e1edfd;color:#001e57;font-weight:bold;line-height:20px}
+table.tablesorter thead tr .header{background-image:url(/images/table_themes/blue/bg.gif);background-repeat:no-repeat;background-position:center right;cursor:pointer;}
+table.tablesorter thead tr .headerSortUp{background-image:url(/images/table_themes/blue/asc.gif)}
+table.tablesorter thead tr .headerSortDown{background-image:url(/images/table_themes/blue/desc.gif)}
+table.tablesorter thead tr .headerSortDown,table.tablesorter thead tr .headerSortUp{background-color:#8dbdd8}
+table.tablesorter tbody tr.odd td{background-color:#F0F0F6}
+table.tablesorter tbody td a:link{color:#003586}
+table.tablesorter tbody td a:visited{color:#003586}
+table.tablesorter tbody td a:hover{color:#003586}
+table.tablesorter tbody td a:active{color:#003586}
+
+/*tab卡1*/
+.usual{color:#000;width:100%;}
+.usual ul.tab{position:relative;}
+.usual ul.tab li{list-style:none;float:left;line-height:15px;height:33px;border:1px solid #C3CED5;border-bottom:0px;width:100px;color: #000;background:#D9E8F3;}
+.usual ul.tab a{display:block;text-align: center;color: #000; height: 33px;text-decoration:none;}
+.usual ul.tab a:hover{text-decoration: underline;color: #BA2636;}
+.usual ul.tab a span{position: relative;top: 9px;}
+.usual ul.tab li.selected{background:#fff;position: relative;top: 1px;}
+.usual ul.tab li.selected div.tops{height: 3px;background-color: #4F90C5;width: 102px;position:relative;left: -1px;top: -2px;}
+.usual ul.tab li.selected span{top: 5px;font-weight:bold;}
+.usual div{clear:left;font-size:12px;}
+.usual .contentContainer{border: 1px solid #C3CED5; }
+.usual .contentContainer .content{padding: 10px 10px 8px 10px;background: #FFF;background-color: white;width: 97%;}
+.usual .contentContainer .contentWrap{width: 90%;margin: 15px auto;border: 1px solid #000;padding: 10px 10px 8px 10px;}
+.NotDate{text-align:center;width:100%;margin:20px 0px;font-size:25px;color:#CCC;line-height:50px;display:block}/*没有数据的时候*/
+
+
+
+/*数据表格1*/
+.tableStyle{border:1px solid #DBDBDB;border-width:0 1px 1px 0;width:100%;height:auto;clear:both;position:relative;margin-bottom:10px}
+.tabletit{background-color:#f2f2f2;text-align:left;font-size:12px;line-height:30px;height:25px;padding-left:10px}
+.tabledata{text-align:left;font-size:12px;line-height:30px;height:30px;padding-left:10px;word-break: break-all;}
+.tableStyle td{border:1px solid #DBDBDB;border-width:1px 0 0 1px;}
+
+
+/*数据表格2 外部带无边框，内部白底无边框的表格*/
+
+.inputFormTable { border: 0;width: 100%;}
+.inputFormTable td {padding:5px; vertical-align:top}
+.inputFormTable td a{color:Blue; text-decoration:none;}
+.inputFormTable td a:hover {text-decoration: underline;}
+.inputFormTable td.tit { text-align:right; width:20%;}
+
+
+
+
+/*数据表格2 外部带边框，内部白底无边框的表格*/
+.infoFormTable { border: 1px solid #DBDBDB;width: 100%;}
+.infoFormTable td {padding:5px; vertical-align:top}
+.infoFormTable td a{color:Blue; text-decoration:none;}
+.infoFormTable td a:hover {text-decoration: underline;}
+.infoFormTable td.tit { text-align:right; width:20%;font-weight: bold;}
+.infoFormTable td.tit1 { text-align:right; width:20%;}
+.infoFormTable td.tmt { text-align:right; width:35%;font-weight: bold;}
+.infoFormTable tr.odd td { background:#f4f7fe}
+
+.w100 { width:100px;}
+.w180 { width:180px;}
+.w230 { width:230px;}
+.w200 { width:200px;}
+select.w230 { width:233px;}
+select.w180 { width:183px;}
+.w250 { width:250px;}
+.w300 { width:300px;}
+.w350 { width:350px;}
+.wnh300 { width:300px;}
+.w400 { width:400px;}
+.w450 { width:450px;}
+.w90p { width:90%}
+.w96p { width:96%}
+.h90 { height:90px;}
+.tCenter { text-align:center;}
+.content1 div { line-height: 30px; font-size: 14px; }
+.table0 { line-height: 25px; }
+
+
+.title{ font-size: 22px; font-weight: bolder; text-align:center; padding-bottom: 30px; padding-top: 20px; }
+.table td{ border:1px solid #D8D8D7; border-width:1px 0px 0px 1px; padding-top: 6px; padding-right: 6px; padding-bottom: 6px; padding-left: 15px; }
+
+input.text { border:1px  solid #ccc; border-bottom:1px solid #ccc; background:none; font-family: "宋体"; font-size: 14px; font-style: normal; }
+.table { border-left:0px solid #D8D8D7;border-top:0px solid #D8D8D7;border-right:1px solid #D8D8D7;border-bottom:1px solid #D8D8D7; line-height:30px;/*d8d8d7;margin:10px 0;*/}
+.content1 { width:50%; width:800px; no-repeat 87% bottom; margin-top: 15px; margin-right: auto; margin-bottom: 15px; margin-left: auto; padding-top: 0px; padding-right: 20px; padding-bottom: 0px; padding-left: 20px; }
+
+
+/*数据表格3 简单展示数据的列表，头部灰色*/
+.infoDataTable {width:100%;text-align: left;border-left:1px solid #d8d8d7;border-top:1px solid #d8d8d7; margin:10px 0;line-height: 20px;}
+.infoDataTable td {background:#fff;border-bottom:1px solid #d8d8d7;border-right:1px solid #d8d8d7; padding:2px 5px;}
+.infoDataTable td.tit {background-color: #EEE; text-align:left;}
+.infoDataTable tr.select td{background:#fffbdd}
+
+/*数据表格4 简单展示数据的列表，没有表头，有边框*/
+.infoTableBorder{width:100%;margin:0 auto;border:1px solid #d8d8d7;border-width:0 1px 1px 0;margin-bottom:10px}
+.infoTableBorder td{vertical-align:middle;line-height:30px;padding-left:5px;border:1px solid #d8d8d7;border-width:1px 0 0 1px;text-align:center}
+.infoTableBorder .tit{text-align:right;padding-right: 6px; }
+.infoTableBorder tr.select td{background:#fffbdd}
+
+/*数据表格5 数据查看的页面*/
+.infoTableView{width:100%;margin:0 auto;border:1px solid #d8d8d7;border-width:0 1px 1px 0;margin-bottom:10px}
+.infoTableView td{vertical-align:middle;line-height:30px;padding-left:5px;border:1px solid #d8d8d7;border-width:1px 0 0 1px;text-align:left}
+.infoTableView .tit{font-weight:bold;text-align:right;width:120px;padding-right: 5px;}
+.infoTableView tr.select td{background:#fffbdd}
+.btnContainer{margin:10px auto; width:200px; height:25px}
+.btnContainer td  {border-width:0px;text-align: center;}
+.btnContainer td input{margin-right:12px;}
+
+/*数据表格6  jbox中的 简单展示数据的列表，没有表头，有边框*/
+.JboxinfoTableBorder{width:100%;margin:0 auto;border:1px solid #d8d8d7;border-width:0 1px 1px 0;margin-bottom:10px}
+.JboxinfoTableBorder td{vertical-align:middle;line-height:30px;padding-left:5px;border:1px solid #d8d8d7;border-width:1px 0 0 1px;text-align:center}
+.JboxinfoTableBorder .tit{text-align:right;width:130px}
+.JboxinfoTableBorder tr.select td{background:#fffbdd}
+
+/*数据表格7  首页展示表格*/
+.mainPageTable{width:100%;padding-left: 16px;}
+.mainPageTable td{text-align: center;font-size: 12px;line-height: 30px;}
+.mainPageTable tr.tbTitle td{font-weight: bold;color: #555;line-height: 1.2em;}
+.mainPageTable td.pre{ text-align: left;}
+.mainPageTable td.pre a{padding-left: 10px;background: url("/images/image/xtb02.png") no-repeat left center;}
+
+
+/*数据表格8 简单展示数据的列表，没有表头，没有边框*/
+.infoTableNoBorder{width:100%;margin:0 auto;border:0px solid #d8d8d7;border-width:0 0 0 0;margin-bottom:10px}
+.infoTableNoBorder td{vertical-align:middle;line-height:30px;padding-left:5px;border:0px solid #d8d8d7;border-width:0 0 0 0;text-align:center}
+.infoTableNoBorder .tit{text-align:right;padding-right: 6px; }
+.infoTableNoBorder tr.select td{background:#fffbdd}
+
+/*高级查询的表格*/
+.DetailSearchTable {margin-top:7px}
+.DetailSearchTable td{padding:2px 5px 5px 5px}
+
+/*上传文件表格的样式*/
+table.tbfileupload{width:98%;margin:0px auto;border-width:0px;border-collapse:collapse;}
+.tbfileupload td{border-width:0px!important;text-align:left;vertical-align:middle; padding:5px 0px 0px 5px !important;}
+.tbfileupload .uploadify{margin-bottom: 0em !important;}
+.tbfileupload #UploadFileList{padding:0;list-style:none;margin:0}
+.tbfileupload #UploadFileList .file-invalid{cursor:pointer;color:#514721;padding-left:48px;line-height:24px;background:url(/images/uploadify/error.png) no-repeat 24px 5px;behavior:url('/images/uploadify/iepngfix.htc');margin-bottom:1px}
+.tbfileupload #UploadFileList .file-invalid span{background-color:#fff6bf;padding:1px}
+.tbfileupload #UploadFileList .file{line-height:2em;padding-left:22px;background:url(/images/uploadify/attach.png) no-repeat 1px 50%;vertical-align:middle;behavior:url('/images/uploadify/iepngfix.htc')}
+.tbfileupload #UploadFileList .file span,#demo-list .file a{padding:0 4px}
+.tbfileupload #UploadFileList .file .file-size{color:#666}
+.tbfileupload #UploadFileList .file .file-error{color:#8a1f11}
+
+
+.popBox1 {z-index:99;width:602px;height:700px;left:50%;/*FF IE7*/top: 50%;/*FF IE7*/margin-left:-351px!important;/*FF IE7 该值为本身宽的一半*/margin-top:-280px!important;/*FF IE7 该值为本身高的一半*/margin-top:0px;position:fixed!important;/*FF IE7*/position:absolute;/*IE6*/_top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight- this.offsetHeight)/2 :/*IE6*/document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/}
+
+.pSend{ margin-top:30px; margin-left:20px;}
+.TabbedPanels {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	clear: none;
+	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+	background:#133081;
+	width:900px;
+	height:470px;
+}
+
+
+.TabbedPanelsTabGroup {
+	display:block;
+	margin: 0px;
+	padding: 0px;
+	background:#133081;
+	height:20px;
+}
+
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	padding: 4px 10px;
+	margin: 0px 1px 0px 0px;
+	font: bold 0.8em sans-serif;
+	list-style: none;
+   color:#FFF;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	margin-right:10px;
+}
+.TabbedPanelsTabFocus {
+	position: relative;
+	top: 1px;
+	float: left;
+	padding: 4px 10px;
+	margin: 0px 1px 0px 0px;
+	font: bold 0.8em sans-serif;
+	background:url(../images/b1.png) no-repeat;
+	border-bottom: 1px solid #EEE;
+	list-style: none;
+   
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	margin-right:10px;
+}
+
+
+.TabbedPanelsTab3{
+	padding: 5px 10px 0px 10px;
+	margin: -5px 3px 5px 281px;
+	font: bold 0.8em sans-serif;
+	list-style: none;
+	color:#FFF;
+	text-align:right;
+	}
+.TabbedPanelsTab3 a:link,.TabbedPanelsTab3  a:visited{
+	text-decoration:none;
+	color:white;
+	}
+/* This selector is an example of how to change the appearnce of a tab button
+ * container as the mouse enters it. The class "TabbedPanelsTabHover" is
+ * programatically added and removed from the tab element as the mouse enters
+ * and exits the container.
+ */
+.TabbedPanelsTabHover {
+	background-color: #fff;
+}
+
+
+.TabbedPanelsTabSelected {
+	background:url(../images/b1.png) no-repeat;
+	border-bottom: 1px solid #EEE;
+}
+
+/* This selector is an example of how to make a link inside of a tab button
+ * look like normal text. Users may want to use links inside of a tab button
+ * so that when it gets focus, the text *inside* the tab button gets a focus
+ * ring around it, instead of the focus ring around the entire tab.
+ */
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.TabbedPanelsContentGroup {
+	clear: both;
+	border:1px #339 solid;
+	background-color:#E7EDFB;
+	height:460px;
+}
+
+
+.TabbedPanelsContent {
+	padding: 10px;
+}
+/* This selector is an example of how to change the appearnce of the currently
+ * active container panel. The class "TabbedPanelsContentVisible" is
+ * programatically added and removed from the content element as the panel
+ * is activated/deactivated.
+ */
+.TabbedPanelsContentVisible {
+}
+
+/* Vertical Tabbed Panels
+ *
+ * The following rules override some of the default rules above so that the
+ * TabbedPanels widget renders with its tab buttons along the left side of
+ * the currently active content panel.
+ *
+ * With the rules defined below, the only change that will have to be made
+ * to switch a horizontal tabbed panels widget to a vertical tabbed panels
+ * widget, is to use the "VTabbedPanels" class on the top-level widget
+ * container element, instead of "TabbedPanels".
+ */
+
+/* This selector floats the TabGroup so that the tab buttons it contains
+ * render to the left of the active content panel. A border is drawn around
+ * the group container to make it look like a list container.
+ */
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+
+/* This selector disables the float property that is placed on each tab button
+ * by the default TabbedPanelsTab selector rule above. It also draws a bottom
+ * border for the tab. The tab button will get its left and right border from
+ * the TabGroup, and its top border from the TabGroup or tab button above it.
+ */
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+/* This selector disables the float property that is placed on each tab button
+ * by the default TabbedPanelsTab selector rule above. It also draws a bottom
+ * border for the tab. The tab button will get its left and right border from
+ * the TabGroup, and its top border from the TabGroup or tab button above it.
+ */
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+
+/* This selector floats the content panels for the widget so that they
+ * render to the right of the tabbed buttons.
+ */
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+/* 汪映 
+ * 2015-05-18
+ */
+/*列表样式1 检测方案、检测套餐*/
+.comTestTable{width:100%;margin:0 auto;background:#fff;border:1px solid #c9c9c9;border-width:1px 0 0 1px;color:#4f6b72;}
+.comTestTable td{vertical-align:middle;padding:5px;border:1px solid #c9c9c9;border-width:0 1px 1px 0;text-align:center;line-height:16px;}
+.comTestTable td{height:65px;}
+.comTestTable tr.item td{height:22px;line-height:22px;}/*检测项目库列表*/
+.comTestTable td a{font-family:"宋体";font-size: 12px;font-weight:bold;color:#0da3c9;}
+.comTestTable td a:link{}
+.comTestTable td a:visited{}
+.comTestTable td a:hover{}
+.comTestTable td a:active{}
+.comTestTable td a.rednor {color:#f00;font-weight:normal;}
+.comTestTable td a.yellownor {color:#EE9B11;font-weight:normal;}
+.comTestTable tr.select td{background:#c9e6f2;}
+.comTestTable tr:hover{background:#E3F4F9;}
+.comTestTable tr.notr:hover{background:#ffffff;}
+.comTestTable tr.thborder{width:100%;}
+.comTestTable tr.thborder th{background: url(/images/mid-t-bg.png) repeat-x center center;height: 38px;border:1px solid #c9c9c9;border-width:0 1px 1px 0;text-align:center;vertical-align:middle;}
+.comTestTable tr.thborder th{font-weight:normal;}
+
+
+/*检测方案详细页面*/
+.tbSolutionItemTable{width:100%;margin:0 auto;background:#fff;border:1px solid #72abc2;border-width:1px 0 0 1px;}
+.tbSolutionItemTable td{vertical-align:middle;padding:5px;border:1px solid #72abc2;border-width:0 1px 1px 0;text-align:center;line-height:20px;font-size:13px;}
+.tbSolutionItemTable td.tit{background:#c9e6f2;}
+.tbSolutionItemTable td a{font-family:"宋体";font-size: 12px;font-weight:bold;color:#0da3c9;}
+.tbSolutionItemTable tr.first{width:100%;}
+.tbSolutionItemTable tr.first td{background:#c9e6f2;border:1px solid #72abc2;border-width:0 1px 1px 0;text-align:center;vertical-align:middle;}
+.tbSolutionItemTable tr.first td{font-weight:normal;}
+
+
+
+
+
+
+/*列表样式1 通用*/
+.comInfoTable{width:100%;margin:0 auto;background:#fff;border:1px solid #c9c9c9;border-width:1px 0 0 1px;}
+.comInfoTable td{vertical-align:middle;padding:5px;border:1px solid #c9c9c9;border-width:0 1px 1px 0;text-align:center;line-height:16px;min-height:35px;}
+.comInfoTable td a{font-family:"宋体";font-size: 12px;color:#0da3c9;}
+.comInfoTable td a:hover {color:#ff0000;text-decoration:underline;}
+.comInfoTable td a.link{color:#555;}
+.comInfoTable td a.link:hover{color:#e25f05;}
+.comInfoTable tr.thborder{width:100%;}
+.comInfoTable tr.thborder th{background: url(/images/mid-t-bg.png) repeat-x center center;height: 30px;border:1px solid #c9c9c9;border-width:0 1px 1px 0;text-align:center;vertical-align:middle;}
+.comInfoTable tr.thborder th{font-weight:bold;color:#000;}
+.noData{text-align:center;width:100%;margin:20px 0px;font-size:12px;color:#333;line-height:30px;display:block}/*没有数据的时候*/
+
+
+
+
+/*列表样式1 委托单*/
+.comOrderTable{width:100%;margin:0 auto;background:#fff;border:1px solid #c9c9c9;border-width:1px 0 0 1px;}
+.comOrderTable td{vertical-align:middle;padding:5px;border:1px solid #c9c9c9;border-width:0 1px 1px 0;text-align:center;line-height:16px;min-height:35px;}
+.comOrderTable td a{font-family:"宋体";font-size: 12px;color:#0da3c9;}
+ .comOrderTable td a:hover {color:#ff0000;text-decoration:underline;}
+.comOrderTable td a.link{color:#555;}
+.comOrderTable td a.link:hover{color:#e25f05;}
+.comOrderTable tr.thborder{width:100%;}
+.comOrderTable tr.thborder th{background: url(/images/mid-t-bg.png) repeat-x center center;height: 30px;border:1px solid #c9c9c9;border-width:0 1px 1px 0;text-align:center;vertical-align:middle;}
+.comOrderTable tr.thborder th{font-weight:bold;color:#000;}
+.noData{text-align:center;width:100%;margin:20px 0px;font-size:12px;color:#333;line-height:30px;display:block}/*没有数据的时候*/
+
+
+/*列表样式2 检测项目详细列表*/
+.comItemTable{width:100%;margin:0 auto;background:#fff;border:1px solid #c9e6f2;border-width:1px 0 0 1px;}
+.comItemTable td{vertical-align:middle;padding:5px;border:1px solid #c9e6f2;border-width:0 1px 1px 0;text-align:center;line-height:16px;}
+.comItemTable td a{font-family:"微软雅黑";font-family: "Microsoft YaHei" ! important;font-size: 12px;color:#c9e6f2;cursor: pointer;}
+
+/*列表样式2 样品列表*/
+.comSampleTable{width:100%;margin:0;background:#fff;border:1px solid #c9c9c9;border-width:1px 0 0 1px;}
+.comSampleTable td{vertical-align:middle;padding:5px;border:1px solid #c9c9c9;border-width:0 1px 1px 0;text-align:center;line-height:16px;font-size: 12px;}
+.comSampleTable td a{font-family:"微软雅黑";font-family: "Microsoft YaHei" ! important;font-size: 12px;color:blue;cursor: pointer;}
+.comSampleTable td a.del{color:red;}
+.comSampleTable td.tit{background:#c9e6f2;width:25%;font-weight:bold;}
+.comSampleTable td a.look{color:#4f6b72;font-weight:bold;}
+
+
+
+/*分页样式*/
+div.ReachIT_Pagination{PADDING-RIGHT:3px;PADDING-LEFT:3px;FONT-SIZE:0.85em;PADDING-BOTTOM:3px;MARGIN:20px auto;PADDING-TOP:3px;FONT-FAMILY:Tahoma,Helvetica,sans-serif;TEXT-ALIGN:center}
+div.ReachIT_Pagination A{BORDER-RIGHT:#ccdbe4 1px solid;PADDING-RIGHT:8px;BACKGROUND-POSITION:50% bottom;BORDER-TOP:#ccdbe4 1px solid;PADDING-LEFT:8px;PADDING-BOTTOM:2px;BORDER-LEFT:#ccdbe4 1px solid;COLOR:#0061de;MARGIN-RIGHT:3px;PADDING-TOP:2px;BORDER-BOTTOM:#ccdbe4 1px solid;TEXT-DECORATION:none}
+div.ReachIT_Pagination A:hover{ text-decoration:none; BORDER-RIGHT:#2b55af 1px solid;BORDER-TOP:#2b55af 1px solid;BACKGROUND-IMAGE:none;BORDER-LEFT:#2b55af 1px solid;COLOR:#fff;BORDER-BOTTOM:#2b55af 1px solid;BACKGROUND-COLOR:#3666d4}
+div.ReachIT_Pagination A:active{BORDER-RIGHT:#2b55af 1px solid;BORDER-TOP:#2b55af 1px solid;BACKGROUND-IMAGE:none;BORDER-LEFT:#2b55af 1px solid;COLOR:#fff;BORDER-BOTTOM:#2b55af 1px solid;BACKGROUND-COLOR:#3666d4}
+div.ReachIT_Pagination SPAN.current{PADDING-RIGHT:6px;PADDING-LEFT:6px;FONT-WEIGHT:bold;PADDING-BOTTOM:2px;COLOR:#000;MARGIN-RIGHT:3px;PADDING-TOP:2px}
+div.ReachIT_Pagination SPAN.disabled{DISPLAY:none}
+div.ReachIT_Pagination A.next{BORDER-RIGHT:#ccdbe4 2px solid;BORDER-TOP:#ccdbe4 2px solid;MARGIN:0px 0px 0px 10px;BORDER-LEFT:#ccdbe4 2px solid;BORDER-BOTTOM:#ccdbe4 2px solid}
+div.ReachIT_Pagination A.next:hover{BORDER-RIGHT:#2b55af 2px solid;BORDER-TOP:#2b55af 2px solid;BORDER-LEFT:#2b55af 2px solid;BORDER-BOTTOM:#2b55af 2px solid}
+div.ReachIT_Pagination A.prev{BORDER-RIGHT:#ccdbe4 2px solid;BORDER-TOP:#ccdbe4 2px solid;MARGIN:0px 10px 0px 0px;BORDER-LEFT:#ccdbe4 2px solid;BORDER-BOTTOM:#ccdbe4 2px solid}
+div.ReachIT_Pagination A.prev:hover{BORDER-RIGHT:#2b55af 2px solid;BORDER-TOP:#2b55af 2px solid;BORDER-LEFT:#2b55af 2px solid;BORDER-BOTTOM:#2b55af 2px solid}
+div.RITButton_1{PADDING-LEFT:5px;FONT-SIZE:13px;PADDING-BOTTOM:10px;COLOR:#313031;PADDING-TOP:10px;FONT-FAMILY:Verdana,Tahoma,Arial,Helvetica,Sans-Serif;BACKGROUND-COLOR:#fff}
+div.RITButton_1 A{BORDER-RIGHT:#b7d8ee 1px solid;PADDING-RIGHT:6px;BORDER-TOP:#b7d8ee 1px solid;PADDING-LEFT:5px;PADDING-BOTTOM:4px;MARGIN:0px 3px;BORDER-LEFT:#b7d8ee 1px solid;COLOR:#0030ce;PADDING-TOP:5px;BORDER-BOTTOM:#b7d8ee 1px solid;TEXT-DECORATION:none}
+div.RITButton_1 A:hover{BORDER-RIGHT:#b7d8ee 1px solid;BORDER-TOP:#b7d8ee 1px solid;BORDER-LEFT:#b7d8ee 1px solid;COLOR:#0066a7;BORDER-BOTTOM:#b7d8ee 1px solid;BACKGROUND-COLOR:#d2eaf6}
